@@ -73,6 +73,16 @@ class ViewController: UIViewController {
         array_4.forEach()
         
         
+        
+        
+        let someBody = StudentModel()
+        someBody.age = 100
+        let anotherBody = StudentModel()
+        anotherBody.age = 120
+        
+        Where_in_Generics_Test.change_1(a: someBody, b:anotherBody)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

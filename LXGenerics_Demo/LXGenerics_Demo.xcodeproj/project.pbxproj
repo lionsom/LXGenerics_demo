@@ -21,6 +21,7 @@
 		4670290A1F18617D00BD98D1 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467029091F18617D00BD98D1 /* BaseModel.swift */; };
 		4670290C1F1861B300BD98D1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670290B1F1861B300BD98D1 /* UserModel.swift */; };
 		4670290E1F18620500BD98D1 /* LX_ModelArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670290D1F18620500BD98D1 /* LX_ModelArray.swift */; };
+		469D38B31F25DF870077DCB7 /* Where_in_Generics_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469D38B21F25DF870077DCB7 /* Where_in_Generics_Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		467029091F18617D00BD98D1 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseModel.swift; path = Generics/Model/BaseModel.swift; sourceTree = "<group>"; };
 		4670290B1F1861B300BD98D1 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = Generics/Model/UserModel.swift; sourceTree = "<group>"; };
 		4670290D1F18620500BD98D1 /* LX_ModelArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LX_ModelArray.swift; path = Generics/Model/LX_ModelArray.swift; sourceTree = "<group>"; };
+		469D38B21F25DF870077DCB7 /* Where_in_Generics_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Where_in_Generics_Test.swift; path = Where/Simple/Where_in_Generics_Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		461A55201F17615200BA2DFB /* LXGenerics_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				469D38B01F25DE7E0077DCB7 /* Where */,
 				461A55331F17621000BA2DFB /* Generics(泛型) */,
 				461A55211F17615200BA2DFB /* AppDelegate.swift */,
 				461A55231F17615200BA2DFB /* ViewController.swift */,
@@ -113,6 +116,22 @@
 				4670290D1F18620500BD98D1 /* LX_ModelArray.swift */,
 			);
 			name = "model（约束）";
+			sourceTree = "<group>";
+		};
+		469D38B01F25DE7E0077DCB7 /* Where */ = {
+			isa = PBXGroup;
+			children = (
+				469D38B11F25DE8B0077DCB7 /* Simple */,
+			);
+			name = Where;
+			sourceTree = "<group>";
+		};
+		469D38B11F25DE8B0077DCB7 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				469D38B21F25DF870077DCB7 /* Where_in_Generics_Test.swift */,
+			);
+			name = Simple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +209,7 @@
 			files = (
 				4670290A1F18617D00BD98D1 /* BaseModel.swift in Sources */,
 				467029071F185A0300BD98D1 /* LX_ConcreteIArray.swift in Sources */,
+				469D38B31F25DF870077DCB7 /* Where_in_Generics_Test.swift in Sources */,
 				461A55241F17615200BA2DFB /* ViewController.swift in Sources */,
 				461A55371F17722400BA2DFB /* ArrayList.swift in Sources */,
 				4670290E1F18620500BD98D1 /* LX_ModelArray.swift in Sources */,
